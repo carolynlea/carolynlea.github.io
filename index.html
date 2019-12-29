@@ -1,34 +1,46 @@
 <html lang="en">
-    <header role="banner" class="banner banner--home" id="banner" tabindex="-1">
+    <head>
         <meta charset="utf-8">
-        <img src="images/penguinLeap.jpg" 
-            srcset="images/penguinLeap_800.jpg 800w,
-                    images/penguinLeap_400.jpg 400w"
-                sizes="(min-width: 800px) 400px, 50%" alt="Penguin leaping from the water.">
-
         <title>All About Penguins</title>
-        <h1>All About Penguins</h1>
-        <!--By Photo © Samuel Blanc, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4674159-->
-    </header>
-    <body>
-        <p>Penguins (order <em>Sphenisciformes</em>, family <em>Spheniscidae</em>) are a group of aquatic flightless birds. They live almost
-        exclusively in the Southern Hemisphere, with only one species, the <a href="https://en.wikipedia.org/wiki/Galapagos_penguin">Galapagos penguin</a>, found north of the equator. Highly
-        adapted for life in the water, penguins have countershaded dark and white plumage, and their wings have evolved into
-        flippers. Most penguins feed on krill, fish, squid and other forms of sea life which they catch while swimming
-        underwater. They spend roughly half of their lives on land and the other half in the sea.</p>
+        
+        <!-- Polyfill for Picture element -->
+        <script>document.createElement("picture");</script>
+        <script src="js/picturefill.min.js" async></script>
+    </head>
     
-        <p>Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates,
-        such as Antarctica. In fact, only a few species of penguin live so far south. Several species are found in the temperate
-        zone, and one species, the <a href="https://en.wikipedia.org/wiki/Galapagos_penguin">Galápagos penguin</a>, lives near the equator.</p>
-    
-        <p>The largest living species is the <a href="https://en.wikipedia.org/wiki/Emperor_penguin">emperor penguin</a> (<em>Aptenodytes forsteri</em>): on average, adults are about 1.1 <abbr title="meters">m</abbr> (3 <abbr title="feet">ft</abbr> 7
-        <abbr title="inches">in</abbr>) tall and weigh 35 <abbr title="kilograms">kg</abbr> (77 <abbr title="pounds">lb</abbr>). The smallest penguin species is the <a href="https://en.wikipedia.org/wiki/Little_penguin">little blue penguin</a> (<em>Eudyptula minor</em>), also known
-        as the fairy penguin, which stands around 40 <abbr title="centimeters">cm</abbr> (16 <abbr title="inches">in</abbr>) tall and weighs 1 <abbr title="kilograms">kg</abbr> (2.2 <abbr title="pounds">lb</abbr>). Among extant penguins, larger
-        penguins inhabit colder regions, while smaller penguins are generally found in temperate or even tropical climates (see
-        also Bergmann's rule). <b>Some prehistoric species attained enormous sizes,</b> becoming as tall or as heavy as an adult human.
-        These were not restricted to Antarctic regions; on the contrary, subantarctic regions harboured high diversity, and at
-        least one giant penguin occurred in a region around 2,000 <abbr title="kilometers">km</abbr> south of the equator 35 <abbr title="million years ago">mya</abbr>, in a climate decidedly warmer
-        than today.</p>
+    <body class="home">
+        <header role="banner" class="banner banner--home" id="banner" tabindex="-1">
+        
+            <img src="images/penguinLeap.jpg" srcset="images/penguinLeap_800.jpg 800w,
+                            images/penguinLeap_400.jpg 400w" sizes="(min-width: 800px) 400px, 50%"
+                alt="Penguin leaping from the water.">
+        
+            <title>All About Penguins</title>
+            <h1>All About Penguins</h1>
+            <!--By Photo © Samuel Blanc, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4674159-->
+        </header>
+
+        <main role="main">
+            <p>Penguins (order <em>Sphenisciformes</em>, family <em>Spheniscidae</em>) are a group of aquatic flightless birds. They live almost
+            exclusively in the Southern Hemisphere, with only one species, the <a href="https://en.wikipedia.org/wiki/Galapagos_penguin">Galapagos penguin</a>, found north of the equator. Highly
+            adapted for life in the water, penguins have countershaded dark and white plumage, and their wings have evolved into
+            flippers. Most penguins feed on krill, fish, squid and other forms of sea life which they catch while swimming
+            underwater. They spend roughly half of their lives on land and the other half in the sea.</p>
+        
+            <p>Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates,
+            such as Antarctica. In fact, only a few species of penguin live so far south. Several species are found in the temperate
+            zone, and one species, the <a href="https://en.wikipedia.org/wiki/Galapagos_penguin">Galápagos penguin</a>, lives near the equator.</p>
+        
+            <p>The largest living species is the <a href="https://en.wikipedia.org/wiki/Emperor_penguin">emperor penguin</a> (<em>Aptenodytes forsteri</em>): on average, adults are about 1.1 <abbr title="meters">m</abbr> (3 <abbr title="feet">ft</abbr> 7
+            <abbr title="inches">in</abbr>) tall and weigh 35 <abbr title="kilograms">kg</abbr> (77 <abbr title="pounds">lb</abbr>). The smallest penguin species is the <a href="https://en.wikipedia.org/wiki/Little_penguin">little blue penguin</a> (<em>Eudyptula minor</em>), also known
+            as the fairy penguin, which stands around 40 <abbr title="centimeters">cm</abbr> (16 <abbr title="inches">in</abbr>) tall and weighs 1 <abbr title="kilograms">kg</abbr> (2.2 <abbr title="pounds">lb</abbr>). Among extant penguins, larger
+            penguins inhabit colder regions, while smaller penguins are generally found in temperate or even tropical climates (see
+            also Bergmann's rule). <b>Some prehistoric species attained enormous sizes,</b> becoming as tall or as heavy as an adult human.
+            These were not restricted to Antarctic regions; on the contrary, subantarctic regions harboured high diversity, and at
+            least one giant penguin occurred in a region around 2,000 <abbr title="kilometers">km</abbr> south of the equator 35 <abbr title="million years ago">mya</abbr>, in a climate decidedly warmer
+            than today.</p>
+        </main>
+
 </body>
 
 
